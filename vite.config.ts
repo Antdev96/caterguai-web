@@ -5,7 +5,10 @@
 
   export default defineConfig({
     plugins: [react()],
-    base: '/', // Ensure assets are loaded from root path
+  // When deploying to GitHub Pages the base must be the repo name unless
+  // you're serving from a custom domain. Update this to '/<repo>/' below.
+  // For now set it to the GitHub Pages path for this repo:
+  base: '/caterguai-web/',
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
