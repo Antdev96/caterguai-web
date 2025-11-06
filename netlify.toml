@@ -6,7 +6,7 @@
   from = "/*"
   to = "/index.html"
   status = 200
-  force = true # Ensure SPA routing works
+  # Do NOT force this redirect — let Netlify serve existing static files (assets)
 
 [build.environment]
   NODE_VERSION = "18" # Ensure modern Node.js for build
