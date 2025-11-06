@@ -1,0 +1,14 @@
+/*
+Theme Name: Caterguai Starter
+Theme URI: https://example.com/
+Author: Your Name
+Author URI: https://example.com/
+Description: Minimal WordPress theme starter prepared to be used with Elementor. Replace assets and adjust templates as needed.
+Version: 0.1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: caterguai-starter
+*/
+
+/* Basic reset for theme (Elementor will provide most layout) */
+body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }

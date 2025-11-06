@@ -1,0 +1,14 @@
+[build]
+  publish = "build"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true # Ensure SPA routing works
+
+[build.environment]
+  NODE_VERSION = "18" # Ensure modern Node.js for build
+
+# Netlify will use this to build the site and serve index.html for SPA routing
